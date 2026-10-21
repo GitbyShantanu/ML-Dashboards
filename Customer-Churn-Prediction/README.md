@@ -5,42 +5,42 @@ An end-to-end Machine Learning web application built using **Streamlit** to pred
 ---
 
 ## 🚀 Live Demo
-- **Deployed App:** [Streamlit Cloud](https://share.streamlit.io) *(Add your live deployment link here)*
+- **Deployed App:** [Streamlit Cloud Link](https://share.streamlit.io) *(Add your live link here)*
 
 ---
 
 ## 📌 Project Overview
-Customer churn is one of the most critical metrics for growing businesses. This application allows business analysts and customer success teams to:
-- Input customer attributes (Age, Tenure, Monthly Charges, Support Calls).
-- Predict whether the customer is at **High Risk** or **Low Risk** of churning.
-- View key high-level dataset metrics (Total Customers, Churned, Retained, Avg Charges).
-- Inspect the underlying training data preview directly within the dashboard.
+Customer churn is a critical metric for businesses. This dashboard enables teams to:
+- Input customer details (Age, Tenure, Monthly Charges, Support Calls).
+- Predict in real time whether a customer is at **High Risk** or **Low Risk** of churning.
+- Review high-level dataset metrics (Total Customers, Churned, Retained, Avg Charges).
+- View a sample preview of the underlying training data.
 
 ---
 
 ## 🛠️ Tech Stack
-- **Frontend / UI:** [Streamlit](https://streamlit.io/)
-- **Machine Learning / Processing:** [scikit-learn](https://scikit-learn.org/), [joblib](https://joblib.readthedocs.io/), [pandas](https://pandas.pydata.org/)
-- **Language:** Python 3.10+
-- **Deployment:** Streamlit Community Cloud
+- **Frontend / Dashboard:** Streamlit
+- **Machine Learning:** scikit-learn, joblib
+- **Data Manipulation:** pandas
+- **Deployment Platform:** Streamlit Community Cloud
 
 ---
 
-## 📂 Directory Structure
-`	ext
-Customer-Churn-Prediction/
-├── .streamlit/
-│   └── config.toml                  # Streamlit configuration & theme settings
-├── Dashboard_Customer_Churn.py      # Main Streamlit application
-├── Marvellous_ML_Customer_Churn.pkl # Trained Machine Learning model
-├── customer_churn.csv               # Dataset used for overview & training
-├── requirements.txt                 # Python dependencies
-└── README.md                        # Documentation
-`
+## 📂 Project Files
+
+| File / Folder | Purpose |
+| :--- | :--- |
+| Dashboard_Customer_Churn.py | Main Streamlit web application |
+| Marvellous_ML_Customer_Churn.pkl | Pre-trained Machine Learning model |
+| customer_churn.csv | Dataset used for training and overview |
+| 
+equirements.txt | Python dependencies required for execution |
+| .streamlit/config.toml | UI & theme configuration settings |
+| README.md | Documentation and setup guide |
 
 ---
 
-## ⚙️ Local Setup & Run
+## ⚙️ How to Run Locally
 
 1. **Clone the repository:**
    `ash
@@ -48,21 +48,12 @@ Customer-Churn-Prediction/
    cd ML-Dashboards/Customer-Churn-Prediction
    `
 
-2. **Create and activate a virtual environment (optional but recommended):**
-   `ash
-   python -m venv venv
-   # Windows:
-   venv\Scripts\activate
-   # Linux/macOS:
-   source venv/bin/activate
-   `
-
-3. **Install dependencies:**
+2. **Install dependencies:**
    `ash
    pip install -r requirements.txt
    `
 
-4. **Launch the Streamlit app:**
+3. **Run the application:**
    `ash
    streamlit run Dashboard_Customer_Churn.py
    `
