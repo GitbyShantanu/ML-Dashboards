@@ -15,7 +15,7 @@ st.caption("Customer Retention and Risk Analytics Platform | Developed by Shanta
 
 # Paths and Model Loading
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
-model = joblib.load(os.path.join(BASE_DIR, "Marvellous_ML_Customer_Churn.pkl"))
+model = joblib.load(os.path.join(BASE_DIR, "customer_churn_model.pkl"))
 df = pd.read_csv(os.path.join(BASE_DIR, "customer_churn.csv"))
 
 # KPI Overview

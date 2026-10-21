@@ -31,7 +31,7 @@ Customer retention is crucial for sustainable business growth. This interactive 
 | File / Folder | Purpose |
 | :--- | :--- |
 | `Dashboard_Customer_Churn.py` | Main Streamlit web application |
-| `Marvellous_ML_Customer_Churn.pkl` | Pre-trained Machine Learning classification model |
+| `customer_churn_model.pkl` | Pre-trained Machine Learning classification model |
 | `customer_churn.csv` | Dataset used for training and overview |
 | `requirements.txt` | Python dependencies required for execution |
 | `.streamlit/config.toml` | UI and theme configuration settings |
